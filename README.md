@@ -1,6 +1,6 @@
 # Bookdarr Media Reader
 
-Bookdarr Media Reader is the companion iOS app for Bookdarr Media Server (BMS). It provides audiobook + ebook playback, offline downloads, and local‑device progress tracking.
+Bookdarr Media Reader is the iOS‑first companion app for Bookdarr Media Server (BMS). It provides audiobook + ebook playback, offline downloads, and local‑device progress tracking.
 
 ## Goals
 - iPhone/iPad first
@@ -10,8 +10,11 @@ Bookdarr Media Reader is the companion iOS app for Bookdarr Media Server (BMS). 
 - Optional TTS for ebooks if no audiobook
 
 ## Tech Stack
-- React Native
-- Expo or bare RN (to be decided)
+- React Native (Expo)
+
+## Development
+- `npm install`
+- `npm run ios`
 
 ## Docs
 - `AGENTS.md` — collaboration rules and agent handoff
@@ -20,4 +23,4 @@ Bookdarr Media Reader is the companion iOS app for Bookdarr Media Server (BMS). 
 - `CHANGELOG.md` — chronological changes
 
 ## License
-Open‑source, no ads, no payments. License details will be finalized in `LICENSE`.
+MIT (see `LICENSE`).
