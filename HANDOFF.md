@@ -1,20 +1,20 @@
 # Handoff — Bookdarr Media Reader
 
-## Status
-- Repo created and initialized.
-- Expo scaffold generated.
-- Docs refreshed to project intent.
+## Current Status
+- Expo scaffold created.
+- Docs updated for agent handoff.
+- No app features implemented yet.
 
 ## Decisions
-- React Native with Expo
+- React Native (Expo)
 - Offline downloads required
-- Progress saved locally on device
-- Optional TTS for ebooks (iOS voice)
+- Local progress persistence
+- Optional TTS for ebooks
 
-## Next Steps
-1. Implement auth + API client for BMS.
+## Immediate Next Steps
+1. Auth flow + token storage.
 2. Library browsing UI.
 3. EPUB reader + audio player.
 4. Offline download storage.
 5. Local progress persistence.
-6. Diagnostics opt‑in + GitHub push.
+6. Diagnostics opt‑in push to /reader.

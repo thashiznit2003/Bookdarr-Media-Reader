@@ -1,23 +1,23 @@
 # AGENTS.md — Bookdarr Media Reader
 
-## Project Intent
-iOS‑first mobile app for Bookdarr Media Server (BMS). Focus on audiobook + ebook playback, offline downloads, and local progress.
+## Project Summary
+iOS‑first React Native (Expo) app for BMS. Supports ebooks + audiobooks, offline download, and local progress tracking.
 
 ## Constraints
 - Progress stored locally on device (not server)
-- Offline mode must work fully
-- UI style similar to Apple Books / Audiobookshelf
+- Offline must work fully
+- UI inspired by Apple Books / Audiobookshelf
 
-## Required Files
+## Diagnostics
+- Opt‑in diagnostics to Bookdarr‑Media‑Diagnostics `/reader/`
+- Later hidden behind secret unlock
+
+## Required Docs
 - README.md
 - CHANGELOG.md
 - HANDOFF.md
 - CHECKLIST.md
 - AGENTS.md
 
-## Diagnostics
-- Opt‑in diagnostics to Bookdarr‑Media‑Diagnostics under `/reader/`
-- Later hidden behind secret unlock
-
-## Handoff Notes
-Maintain `HANDOFF.md` after each change.
+## Handoff Discipline
+Update `HANDOFF.md` and `CHANGELOG.md` after each meaningful change.
