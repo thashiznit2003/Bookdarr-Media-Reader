@@ -12,6 +12,24 @@ iOS‑first React Native (Expo) app for Bookdarr Media Server (BMS). Provides eb
 ## Tech Stack
 - React Native (Expo)
 
+## Diagnostics (dev)
+Diagnostics require auth while BMS is configured with JWT secrets.
+
+Example flow:
+
+```bash
+curl -X POST http://localhost:9797/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"reader@example.com","password":"password123"}'
+```
+
+```bash
+curl -X POST http://localhost:9797/diagnostics \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <access_token>" \
+  -d '{"event":"reader-startup","level":"info","source":"reader","data":{"version":"0.0.1"}}'
+```
+
 ## Docs
 - AGENTS.md
 - HANDOFF.md
