@@ -5,7 +5,7 @@
 - [ ] Update README/HANDOFF on changes
 
 ## Core Features
-- [ ] Login + token storage
+- [x] Login + token storage
 - [ ] Library browse/search
 - [ ] EPUB reader
 - [ ] Audiobook player
@@ -14,5 +14,4 @@
 - [ ] TTS fallback
 
 ## Diagnostics
-- [ ] Opt‑in diagnostics
-- [ ] Push to Bookdarr‑Media‑Diagnostics /reader
+- [ ] Local-only debug logging (no outbound telemetry)
