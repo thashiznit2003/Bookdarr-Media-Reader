@@ -2,6 +2,9 @@
 
 iOS‑first React Native (Expo) app for Bookdarr Media Server (BMS). Provides ebook + audiobook playback, offline downloads, and local progress tracking.
 
+Start here:
+- `START_HERE.md`
+
 ## Goals
 - iPhone/iPad first
 - Easy Android port later
@@ -28,6 +31,7 @@ No outbound diagnostics/telemetry. Debugging is done via on-device logs and BMS 
 ## Docs
 - AGENTS.md
 - HANDOFF.md
+- START_HERE.md
 - CHECKLIST.md
 - CHANGELOG.md
 

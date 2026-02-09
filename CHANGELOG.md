@@ -1,5 +1,8 @@
 # Changelog — Bookdarr Media Reader
 
+## 1.0.2 — 2026-02-09 01:12 -06:00
+- Add `START_HERE.md` with the frozen BMS `/api/v1/*` contract notes, security rules (SecureStore refresh token, in-memory access token), and implementation guidance for Book Pool, My Library, offline downloads, playback, ebook reading, and progress sync.
+
 ## 1.0.1 — 2026-02-08 10:23 -06:00
 - Add secure login flow for BMS (`/api/v1/auth/*`) with refresh token stored in SecureStore and access token kept in memory.
 - Implement 2-step 2FA login UX (password step, then OTP step using `challengeToken`).
